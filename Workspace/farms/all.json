@@ -1,0 +1,103 @@
+[
+    {
+        "chunks": 1,
+        "platform": "Windows 10",
+        "browserName": "microsoftedge",
+        "version": "20"
+    },
+    {
+        "chunks": 1,
+        "browserName": "chrome",
+        "platform": "Windows 10",
+        "version": 48
+    },
+    {
+        "chunks": 1,
+        "browserName": "firefox",
+        "platform": "Windows 10",
+        "version": 44
+    },
+//    {
+//        "chunks": 1,
+//        "browserName": "opera",
+//        "platform": "Windows 7",
+//        "version": "12.12"
+//    },
+    {
+        "chunks": 1,
+        "browserName": "safari",
+        "platform": "OS X 10.11",
+        "version": "9"
+    },
+    {
+        "chunks": 1,
+        "browserName": "safari",
+        "platform": "OS X 10.10",
+        "version": "8"
+    },
+    {
+        "chunks": 1,
+        "browserName": "iphone",
+        "platform": "OS X 10.10",
+        "deviceName": "iPhone 6 Plus",
+        "version": "9.2",
+        "orientation": "portrait"
+    },
+//    {
+//        "deviceName": "iPhone 6 Device",
+//        "platformName": "iOS",
+//        "platformVersion":"8.0",
+//        "browserName": "Safari",
+//        "appium-version":"1.4.7"
+//    },
+//    {
+//        "chunks": 1,
+//        "browserName": "Android",
+//        "platform": "Linux",
+//        "deviceName": "Android Emulator",
+//        "version": "5.1",
+//        "orientation": "portrait"
+//    },
+//    {
+//        "chunks": 1,
+//        "browserName": "Android",
+//        "platform": "Linux",
+//        "deviceName": "Android Emulator",
+//        "version": "5.0",
+//        "device-orientation": "portrait"
+//    },
+    {
+        "chunks": 1,
+        "browserName": "Browser",
+        "appiumVersion": "1.4.16",
+        "deviceName": "Android Emulator",
+        "deviceType": "phone",
+        "deviceOrientation": "portrait",
+        "platformVersion": "5.1",
+        "platformName": "Android"
+    },
+//    {
+//        "chunks": 1,
+//        "browserName": "internet explorer",
+//        "platform": "Windows XP",
+//        "version": 8
+//    },
+    {
+        "chunks": 1,
+        "browserName": "internet explorer",
+        "platform": "Windows 7",
+        "version": 9
+    },
+    {
+        "chunks": 1,
+        "browserName": "internet explorer",
+        "platform": "Windows 8",
+        "version": 10
+    },
+    {
+        "chunks": 1,
+        "browserName": "internet explorer",
+        "platform": "Windows 8.1",
+        "version": 11
+    }
+]

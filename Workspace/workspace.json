@@ -13,7 +13,37 @@
     },
     "tests": {
         "browser": {
-            "farms": []
+            "farms": [
+                {
+                    "name": "SauceLabs",
+                    "type": "saucelabs",
+                    "username": "",
+                    "accessKey": "",
+                    "host": "ondemand.saucelabs.com",
+                    "port": 80,
+                    "sessionLimit": 10,
+                    "pools": [
+                        {
+                            "name": "ie",
+                            "path": "farms/ie.json"
+                        }
+                    ]
+                },
+                {
+                    "name": "Local",
+                    "type": "generic",
+                    "host": "127.0.0.1",
+                    "port": 4444,
+                    "autoStartTunnel": false,
+                    "sessionLimit": 1,
+                    "pools": [
+                        {
+                            "name": "local",
+                            "path": "farms/local.json"
+                        }
+                    ]
+                }
+            ]
         },
         "archiveRoot": "/senchatest/demo/1.0.0",
         "archiveServer": "http://cdn.sencha.com"
